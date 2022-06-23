@@ -42,7 +42,7 @@ let
           maintainers = with lib.maintainers; [ kamadorueda ];
         };
       };
-      
+
       _1Password.op-vscode = buildVscodeMarketplaceExtension {
         mktplcRef = {
           publisher = "1Password";
