@@ -41,7 +41,7 @@ let
           license = lib.licenses.mit;
         };
       };
-      
+
       _4ops.terraform = buildVscodeMarketplaceExtension {
         mktplcRef = {
           publisher = "4ops";
