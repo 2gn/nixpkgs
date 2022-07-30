@@ -86,6 +86,6 @@ stdenv.mkDerivation rec {
     homepage = "https://gtkmm.org/";
     license = licenses.lgpl2Plus;
     maintainers = teams.gnome.members ++ (with maintainers; [ raskin ]);
-    platforms = platforms.unix;
+    platforms = platforms.linux;
   };
 }
